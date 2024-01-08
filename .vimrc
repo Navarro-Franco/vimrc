@@ -55,10 +55,8 @@ set colorcolumn=80
 "-----------------------------------------
 filetype plugin on
 
-set path+=**
+set nrformats+=alpha
 
 let mapleader  = " "
 
 nnoremap <leader>pv :Ex<CR>
-
-set gp=git\ grep\ -n
